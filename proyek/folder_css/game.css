@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cursor-hammer {
+    width: 60px;
+    height: 60px;
+    background-image: url(../asset/hammer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.game a {
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    flex-basis: 100%;
+    margin: 20px auto;
+    font-size: 30px;
+}
+
+.info {
+    width: 350px;
+    height: 40px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.player-life {
+    position: absolute;
+    right: 0;
+}
+
+.player-score {
+    position: absolute;
+    left: 0;
+}
+
+.player-score p {
+    display: inline-block;
+    font-size: 26px;
+    padding-left: 10px;
+}
+
+.player-life p {
+    display: inline-block;
+    font-size: 26px;
+    padding-right: 10px;
+}
+
+.container2 {
+    position: absolute;
+    z-index: 2;
+    width: 350px;
+    height: 320px;
+    text-align: center;
+    line-height: 320px;
+    color: white;
+}
+
+body {
+    background-image: url(../asset/backgroundgame.jpg);
+    cursor: none;
+}
+
+.notif {
+    position: fixed;
+    display: none;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../asset/congrats.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.notif img {
+    width: 450px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.notif-msg {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+}
+
+.game {
+    height: auto;
+    width: 100%;
+    padding-bottom: 10px;
+    background-attachment: fixed;
+}
+
+.container1 {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+    gap: 10px;
+    padding-bottom: 10px;
+    margin: 50px auto;
+}
+
+.game p {
+    color: white;
+}
+
+main {
+    height: auto;
+}
+
+.hole {
+    width: 100px;
+    height: 100px;
+    background-image: url(../asset/lubang.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.rules-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 60px;
+    margin-bottom: 60px;
+    background-size: cover;
+}
+
+.rules-list ol {
+    text-align: justify;
+}
+
+.rules-list ol li {
+    font-size: 20px;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    position: relative;
+}
+
+footer img {
+    width: 100%;
+}
+
+footer p {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 50%;
+    font-size: 24px;
+}
+
+
+
